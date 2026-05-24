@@ -110,3 +110,46 @@ body{
     align-items: center;
     text-align: center;
 }
+.cont-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cont-text h4{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: var(--second-color);
+}
+.cont-text h1{
+    margin: 10px 0  20px;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 3.8rem;
+    color: var(--bg-color);
+    letter-spacing: 2px;
+}
+.cont-text p{
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--second-color);
+    font-weight: 300;
+    max-width: 500px;
+}
+.cont-text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 11px 40px;
+    transition: var(--transition);
+    color: var(--bg-color);
+    border: 1px solid var(--second-color);
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+.cont-text a:hover{
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color);
+    box-shadow: 0 0 60px white;
+    color: var(--text-color);
+
+}
