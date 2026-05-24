@@ -6,6 +6,10 @@
     font-family: "Jost", sans-serif;
 }
 a{text-decoration: none;}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
 :root{
     --bg-color : #ffffff;
     --main-color : #4b9e22;
