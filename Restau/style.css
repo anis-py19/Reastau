@@ -80,3 +80,20 @@ body{
     color: var(--other-color);
 }
 .navbar a:hover::before{width: 100%;}
+.cont-btn{
+    display: flex;
+    gap: 20px;
+}
+.cont-btn i{
+    display: inline-block;
+    transition: var(--transition);
+}
+.cont-btn i:hover{
+    transform: scale(1.1);
+}
+#menu-icons{
+    margin-left: 20px;
+    cursor: pointer;
+    z-index: 10000;
+    display: none;
+}
