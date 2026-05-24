@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
     font-family: "Jost", sans-serif;
 }
+a{text-decoration: none;}
 :root{
     --bg-color : #ffffff;
     --main-color : #4b9e22;
