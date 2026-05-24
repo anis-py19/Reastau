@@ -53,3 +53,30 @@ body{
 .logo-cont a span:hover{
     transform: translateY(-5px);
 }
+.navbar{
+    display: flex;
+    gap: 35px;
+}
+.navbar a{
+    display: inline-block;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    transition: var(--transition);
+
+}
+.navbar a::before{
+    content: "";
+    position: absolute;
+    background-color: var(--text-color);
+    transition: var(--transition);
+    height: 2px;
+    width: 0;
+    border-radius: 20px;
+    bottom: -5px;
+}
+.navbar a:hover{
+    color: var(--other-color);
+}
+.navbar a:hover::before{width: 100%;}
