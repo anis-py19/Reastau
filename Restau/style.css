@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Jost", sans-serif;
+}
+:root{
+    --bg-color : #ffffff;
+    --main-color : #4b9e22;
+    --second-color : #d9d9d9;
+    --other-color : #83868c;
+    --text-color : #000000;
+}
