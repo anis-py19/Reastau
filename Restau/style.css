@@ -6,6 +6,9 @@
     font-family: "Jost", sans-serif;
 }
 a{text-decoration: none;}
+section{
+    padding: 80px 10% 80px;
+}
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
