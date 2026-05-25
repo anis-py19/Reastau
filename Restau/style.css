@@ -215,28 +215,50 @@ body {
                 0 0 80px rgba(255, 107, 0, 0.2);
     letter-spacing: 4px;
 }
-.center-text{
+.center-text {
     text-align: center;
 }
-.center-text h2{
-    letter-spacing: 2px;
+.center-text h2 {
+    letter-spacing: 3px;
     font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.4;
+    background: linear-gradient(
+        135deg,
+        #ffffff 30%,
+        #ff6b00 70%,
+        #ffaa00 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(255, 107, 0, 0.3));
 }
-.offer-cont{
+.offer-cont {
     padding: 50px;
     display: flex;
     flex-direction: column;
-    background-color: #ff6b00;
+    background: linear-gradient(
+        135deg,
+        #1a0a00 0%,
+        #2a1200 40%,
+        #1a0800 100%
+    );
+    border-radius: 20px;
 }
-.card-cont{
+.card-cont {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #ffaa00;
+    background: rgba(255, 107, 0, 0.05);
     gap: 20px;
+    border: 1px solid rgba(255, 107, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px;
 }
-.card{
+.card {
     display: flex;
     height: 10rem;
     padding: 20px;
@@ -244,23 +266,53 @@ body {
     flex-direction: row;
     align-items: center;
     width: 30rem;
-    background-color: var(--card-bg);
+    background: linear-gradient(
+        135deg,
+        #1a1a1a 0%,
+        #111111 100%
+    );
+    border: 1px solid rgba(255, 107, 0, 0.2);
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease;
 }
-.img-row img{
+.img-row img {
     max-width: 200px;
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
+
 .text-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.text-card h4{
-    color: var(--text-color);
+.text-card h4 {
+    background: linear-gradient(
+        90deg,
+        #ffffff,
+        #ffaa00
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: filter 0.3s ease;
 }
-.text-card p{
-    color: var(--second-color);
+.text-card p {
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.card:hover .text-card p {
+    color: #c8c8c8;
 }
