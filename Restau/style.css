@@ -215,3 +215,52 @@ body {
                 0 0 80px rgba(255, 107, 0, 0.2);
     letter-spacing: 4px;
 }
+.center-text{
+    text-align: center;
+}
+.center-text h2{
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+.offer-cont{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff6b00;
+}
+.card-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffaa00;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    height: 10rem;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    width: 30rem;
+    background-color: var(--card-bg);
+}
+.img-row img{
+    max-width: 200px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-card h4{
+    color: var(--text-color);
+}
+.text-card p{
+    color: var(--second-color);
+}
