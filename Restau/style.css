@@ -9,7 +9,7 @@
 a { text-decoration: none; }
 
 section {
-    padding: 80px 10% 80px;
+    padding: 80px 10%  80px;
 }
 
 body {
@@ -451,4 +451,40 @@ body {
     border-color: transparent;
     box-shadow: 0 0 25px rgba(255, 107, 0, 0.5),
                 0 0 60px rgba(255, 107, 0, 0.15);
+}
+.menu{
+    background-color: #ffaa00;
+}
+.card-menu{
+    gap: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        135deg,
+        #1a0a00 0%,
+        #2a1200 40%,
+        #1a0800 100%
+    );
+    border-radius: 20px;
+}
+.cardm{
+    width: 35%;
+    display: flex;
+    background-color: var(--card-bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    height: 20rem;
+}
+.img-menu{
+    border: 2px solid white;
+    height: 70%;
+    width: 90%;
+}
+.img-menu img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
