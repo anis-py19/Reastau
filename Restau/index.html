@@ -1,184 +1,262 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Food-Name</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="logo-cont">
-            <a href="#">Happy <span>Burger</span></a>
+      <div class="logo-cont">
+        <a href="#">Happy <span>Burger</span></a>
+      </div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#Feature">feature</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+      <div class="cont-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="bx bx-menu" id="menu-icons">
+          <i class="fa-solid fa-bars"></i>
         </div>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#shop">Shop</a>
-            <a href="#Feature">feature</a>
-            <a href="#Contact">Contact</a>
-        </nav>
-        <div class="cont-btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <div class="bx bx-menu" id="menu-icons">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
+      </div>
     </header>
     <section class="hero" id="home">
-        <div class="cont-text">
-            <h4>Best Burger Ever</h4>
-            <h1>Happy Burger</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae magnam, culpa a quo cumque.</p>
-            <a href="#">Order Now</a>
-        </div>
+      <div class="cont-text">
+        <h4>Best Burger Ever</h4>
+        <h1>Happy Burger</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          beatae magnam, culpa a quo cumque.
+        </p>
+        <a href="#">Order Now</a>
+      </div>
     </section>
     <section class="offer">
-        <div class="center-text">
-            <h2>What We Offer? <br>For Our Clients</h2>
-        </div>
-        <div class="offer-cont">
-            <div class="card-cont">
-                <div class="card">
-                    <div class="img-row">
-                        <img src="./img/store1.png" alt="">
-                    </div>
-                    <div class="text-card">
-                        <h4>Humberger</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, accusamus.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-row">
-                        <img src="./img/store2.png" alt="">
-                    </div>
-                    <div class="text-card">
-                        <h4>Sandwich</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, accusamus.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-row">
-                        <img src="./img/store3.png" alt="">
-                    </div>
-                    <div class="text-card">
-                        <h4>Suchi</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, accusamus.</p>
-                    </div>
-                </div>
+      <div class="center-text">
+        <h2>What We Offer? <br />For Our Clients</h2>
+      </div>
+      <div class="offer-cont">
+        <div class="card-cont">
+          <div class="card">
+            <div class="img-row">
+              <img src="./img/store1.png" alt="" />
             </div>
-            <div class="second-card">
-                <div class="ccard-cont">
-                    <div class="card2">
-                        <div class="img-card2">
-                            <img src="./img/banner1.webp" alt="">
-                        </div>
-                        <div class="text-card2">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <h4>Suchi</h4>
-                        </div>
-                        <div class="icons-card2">
-                            <a href="#">Take Now</a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="img-card2">
-                            <img src="./img/banner2.webp" alt="">
-                        </div>
-                        <div class="text-card2">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <h4>Suchi</h4>
-                        </div>
-                        <div class="icons-card2">
-                            <a href="#">Take Now</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="text-card">
+              <h4>Humberger</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, accusamus.
+              </p>
             </div>
+          </div>
+          <div class="card">
+            <div class="img-row">
+              <img src="./img/store2.png" alt="" />
+            </div>
+            <div class="text-card">
+              <h4>Sandwich</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, accusamus.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-row">
+              <img src="./img/store3.png" alt="" />
+            </div>
+            <div class="text-card">
+              <h4>Suchi</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, accusamus.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="second-card">
+          <div class="ccard-cont">
+            <div class="card2">
+              <div class="img-card2">
+                <img src="./img/banner1.webp" alt="" />
+              </div>
+              <div class="text-card2">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h4>Suchi</h4>
+              </div>
+              <div class="icons-card2">
+                <a href="#">Take Now</a>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="img-card2">
+                <img src="./img/banner2.webp" alt="" />
+              </div>
+              <div class="text-card2">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h4>Suchi</h4>
+              </div>
+              <div class="icons-card2">
+                <a href="#">Take Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="menu">
-        <div class="center-text">
-            <h2>What We Offer? <br>For Our Clients</h2>
-        </div>
-        <div class="menu-cont">
-            <div class="card-menu">
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/p1.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/p2.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/p3.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/p4.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/s3.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
-                <div class="cardm">
-                    <div class="img-menu">
-                        <img src="./img/s5.webp" alt="">
-                    </div>
-                    <div class="text-menu">
-                        <h3>Pizza</h3>
-                        <p>1500 <span>Da</span></p>
-                    </div>
-                </div>
+      <div class="center-text">
+        <h2>What We Offer? <br />For Our Clients</h2>
+      </div>
+      <div class="menu-cont">
+        <div class="card-menu">
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/p1.webp" alt="" />
             </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/p2.webp" alt="" />
+            </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/p3.webp" alt="" />
+            </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/p4.webp" alt="" />
+            </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/s3.webp" alt="" />
+            </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
+          <div class="cardm">
+            <div class="img-menu">
+              <img src="./img/s5.webp" alt="" />
+            </div>
+            <div class="text-menu">
+              <h3>Pizza</h3>
+              <p>1500 <span>Da</span></p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="mini-tab">
-        <div class="image-tab">
-            <img src="./img/cta.webp" alt="">
-            <div class="text-cont">
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequatur!</h3>
-                <h1>Best OF tHe Best</h1>
-                <a href="#">Button</a>
-            </div>
+      <div class="image-tab">
+        <img src="./img/cta.webp" alt="" />
+        <div class="text-cont">
+          <h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus,
+            consequatur!
+          </h3>
+          <h1>Best OF tHe Best</h1>
+          <a href="#">Visit!</a>
         </div>
-
+      </div>
     </section>
+    <footer class="footer" id="Contact">
+      <div class="footer-cont">
+        <div class="footer-col">
+          <a href="#" class="footer-logo">Happy <span>Burger</span></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Discover
+            the best burgers crafted with love and the finest ingredients.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#Feature">Feature</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Menu</h4>
+          <ul>
+            <li><a href="#">Burgers</a></li>
+            <li><a href="#">Pizza</a></li>
+            <li><a href="#">Sushi</a></li>
+            <li><a href="#">Sandwich</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 123 Burger Street, NY
+            </li>
+            <li><i class="fa-solid fa-phone"></i> +1 234 567 890</li>
+            <li><i class="fa-solid fa-envelope"></i> hello@happyburger.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 <span>Happy Burger</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
